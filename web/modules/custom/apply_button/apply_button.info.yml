@@ -1,0 +1,7 @@
+name: 'Apply Button'
+type: module
+description: 'Custom module to add apply button block.'
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:block

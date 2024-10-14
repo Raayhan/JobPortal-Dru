@@ -1,0 +1,8 @@
+apply_route:
+  path: '/apply/{node}'
+  defaults:
+    _controller: '\Drupal\apply_button\Controller\ApplyController::apply'
+    _title: 'Apply'
+  requirements:
+    _permission: 'access content'
+    node: \d+  # Ensures that the node ID is a digit
