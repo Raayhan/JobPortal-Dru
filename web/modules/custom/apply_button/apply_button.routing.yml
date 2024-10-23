@@ -1,8 +1,10 @@
 apply_route:
-  path: '/apply/{node}'
+  path: "/apply/{node}"
   defaults:
+    _form: '\Drupal\apply_button\Form\JobApplicationForm'
     _controller: '\Drupal\apply_button\Controller\ApplyController::apply'
-    _title: 'Apply'
+    _title: "Job Application"
   requirements:
-    _permission: 'access content'
-    node: \d+  # Ensures that the node ID is a digit
+    _permission: "access content"
+    _role: "authenticated"
+    node: \d+ # Ensures that the node ID is a digit

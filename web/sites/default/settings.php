@@ -873,3 +873,4 @@ $databases['default']['default'] = array (
   'autoload' => 'core/modules/mysql/src/Driver/Database/mysql/',
 );
 $settings['config_sync_directory'] = 'sites/default/files/config_CQZzd7YiortFT4zwTW4FJvd5bXxgXWglj-WefFiO9qISehl8EI4hcPNmbTVK1a2pACyM7rVGig/sync';
+$settings['file_private_path'] = 'sites/default/files/private';

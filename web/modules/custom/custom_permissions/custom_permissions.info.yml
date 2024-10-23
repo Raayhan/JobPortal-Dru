@@ -1,0 +1,7 @@
+name: "Custom Permissions"
+type: "module"
+description: "This is a custom module used for assigining custom permissions to each nodes"
+package: "Custom"
+core: 10.x
+core_version_requirement: ^10
+version: "1.0"

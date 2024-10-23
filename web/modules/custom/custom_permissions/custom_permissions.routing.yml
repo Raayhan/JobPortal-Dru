@@ -1,0 +1,7 @@
+custom_permissions.overview:
+  path: '/custom-permissions'
+  defaults:
+    _controller: '\Drupal\custom_permissions\Controller\CustomPermissionsPageController::overviewPage'
+    _title: 'Custom Permissions Overview'
+  requirements:
+    _permission: 'access content'
